@@ -2,24 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Camara : MonoBehaviour
 
 
 
 {
+    public bool zooming;
+    public float zoomSpeed;
     public Camera camara;
 
-    void Start()
+    void update()
     {
-        RaycastHit hit;
-        Ray ray = camara.ScreenPointToRay(Input.mousePosition);
-
-        if (Physics.Raycast(ray, out hit))
+        if (zooming)
         {
-            Transform objectHit = hit.transform;
+            Ray ray = camara.ScreenPointToRay(Input.mousePosition);
+            float zoomDistance = zoomSpeed * Input.GetAxis("Vertical") * Time.deltaTime;
+            camara.transform.Translate(ray.direction * zoomDistance, Space.World);
+
+
 
 
         }
+
+
+
+
 
 
 

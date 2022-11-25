@@ -30473,6 +30473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
+  - component: {fileID: 963194229}
   - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
@@ -30547,6 +30548,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 58.605, y: -170.774, z: 5.451}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ee5ea97ef8acb4488d3c2bfc7ea7a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zooming: 0
+  zoomSpeed: 0
+  camara: {fileID: 963194227}
 --- !u!1001 &963895125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66163,7 +66179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6118227919572546229, guid: 56e374e04c1854116bf947f242dc5487, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6118227919572546229, guid: 56e374e04c1854116bf947f242dc5487, type: 3}
       propertyPath: m_AnchorMax.x

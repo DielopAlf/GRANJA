@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Crear : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject Arbol;
+    public GameObject Granero;
+    public GameObject Valla;      
+    public GameObject Tierra;
 
-    // Update is called once per frame
+    public enum Estados:
+
+
+    Estados crear;
+
+
+
+    
+
     void Update()
     {
-        
+        if (Input.GetMouseButtonUp(0))
+
+        { }
     }
+    
 }
