@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -29886,7 +29886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &949749709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43180,7 +43180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1825499016186761123, guid: 9e10565277ea942469a04e8e4a29b8e8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 332
+      value: 452.3
       objectReference: {fileID: 0}
     - target: {fileID: 1825499016186761123, guid: 9e10565277ea942469a04e8e4a29b8e8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -47200,6 +47200,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4724602507275130, guid: 144d244740414c641992a2d495f2d345, type: 3}
   m_PrefabInstance: {fileID: 1464488471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1466863723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466863725}
+  - component: {fileID: 1466863724}
+  m_Layer: 0
+  m_Name: controllarinterfaz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1466863724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466863723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9abe49c8f5f9964a8593d93f6fc1e3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuInicial: {fileID: 1965948482}
+  Camara: {fileID: 963194225}
+--- !u!4 &1466863725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466863723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 590.57733, y: 297.1561, z: 3.84706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1467348224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51374,7 +51420,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2781356671858607838, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
       propertyPath: m_Name
-      value: Btn_MainButton_Purple
+      value: TBA
       objectReference: {fileID: 0}
     - target: {fileID: 2781356671858607839, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
       propertyPath: m_Pivot.x
@@ -51454,7 +51500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2781356671858607839, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 565
+      value: 685.3
       objectReference: {fileID: 0}
     - target: {fileID: 2781356671858607839, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -51473,8 +51519,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781356672253025876, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
+      propertyPath: m_text
+      value: tba
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781356672253025876, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
       propertyPath: m_textAlignment
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781356672253025876, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 2781356672253025876, guid: b0f639c3f42fa45f88859cda7d1ee061, type: 3}
       propertyPath: m_VerticalAlignment
@@ -53978,7 +54032,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1677985811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57757,6 +57811,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1965948486}
     m_Modifications:
+    - target: {fileID: 2452489010817988427, guid: f112556180188462e8d21b748d8da130, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452489010817988427, guid: f112556180188462e8d21b748d8da130, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452489010817988427, guid: f112556180188462e8d21b748d8da130, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1466863724}
+    - target: {fileID: 2452489010817988427, guid: f112556180188462e8d21b748d8da130, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452489010817988427, guid: f112556180188462e8d21b748d8da130, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivarCamara
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452489010817988427, guid: f112556180188462e8d21b748d8da130, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Interfaz, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452489010817988427, guid: f112556180188462e8d21b748d8da130, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2452489010817988436, guid: f112556180188462e8d21b748d8da130, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -57835,7 +57917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2452489010817988436, guid: f112556180188462e8d21b748d8da130, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 84
+      value: 204.29999
       objectReference: {fileID: 0}
     - target: {fileID: 2452489010817988436, guid: f112556180188462e8d21b748d8da130, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -63367,7 +63449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7018945474741051350, guid: 889608bb0f2024861b25e0b3c772326e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 798.7
+      value: 919
       objectReference: {fileID: 0}
     - target: {fileID: 7018945474741051350, guid: 889608bb0f2024861b25e0b3c772326e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -63387,11 +63469,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7018945474741051351, guid: 889608bb0f2024861b25e0b3c772326e, type: 3}
       propertyPath: m_Name
-      value: Btn_MainButton_Sky
+      value: TBA
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018945476141878962, guid: 889608bb0f2024861b25e0b3c772326e, type: 3}
+      propertyPath: m_text
+      value: tba
       objectReference: {fileID: 0}
     - target: {fileID: 7018945476141878962, guid: 889608bb0f2024861b25e0b3c772326e, type: 3}
       propertyPath: m_textAlignment
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018945476141878962, guid: 889608bb0f2024861b25e0b3c772326e, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 7018945476141878962, guid: 889608bb0f2024861b25e0b3c772326e, type: 3}
       propertyPath: m_VerticalAlignment
