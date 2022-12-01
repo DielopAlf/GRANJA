@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 using UnityEngine.UI;
 
 
@@ -134,7 +135,26 @@ void MoverObjeto()
         estadoActual = EstadosSelector.EnEspera;
         objetoseleccionado = null;
 
+
+
+public class OpcionesAnimacion : MonoBehaviour
+{
+    [SerializeField]
+    GameObject menu;
+    [SerializeField]
+    GameObject image;
+    void Start()
+    {
+
     }
+
+    void Update()
+    {
+>>>>>>> 0bb48d1b8a30552a9cceeb09becefc1b7e4f0fe3
+>>>>>>> 9595981d0f6959681e0d8eb3a7be751f3554eab7
+
+    }
+
 
 
 
@@ -167,4 +187,18 @@ public void Seleccionarcrear()
 
 }
    
+
+    public void BotonCrear()
+    {
+        menu.SetActive(false);
+        gameObject.SetActive(true);
+    }
+
+    public void BotonCancelar()
+    {
+        menu.SetActive(true);
+        gameObject.SetActive(false);
+
+    }
+
 }

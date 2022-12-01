@@ -16,23 +16,17 @@ public class Camara : MonoBehaviour
     {
 
         if (Input.GetMouseButton(0))
-
         {
-           final  = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Camera.main.transform.position;
-
-
-              origen = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            Camera.main.transform.position = origen - final;
-
-
+            //Calcular el movimiento del raton
+            Vector3 mov = final - Input.mousePosition;
+            gameObject.transform.position += mov;
 
         }
 
-       
 
 
 
+        final = Input.mousePosition;
 
 
 
