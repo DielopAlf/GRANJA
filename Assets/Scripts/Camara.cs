@@ -2,30 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Camara : MonoBehaviour
 
 
 
 {
-    public bool zooming;
-    public float zoomSpeed;
-    public Camera camara;
+    public Vector3 origen;
+    public Vector3 final;
 
-    void update()
+
+    void Update()
     {
-        if (zooming)
-        {
-            Ray ray = camara.ScreenPointToRay(Input.mousePosition);
-            float zoomDistance = zoomSpeed * Input.GetAxis("Vertical") * Time.deltaTime;
-            camara.transform.Translate(ray.direction * zoomDistance, Space.World);
 
+        if (Input.GetMouseButton(0))
+
+        {
+           final  = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Camera.main.transform.position;
+
+
+              origen = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            Camera.main.transform.position = origen - final;
 
 
 
         }
 
-
-
+       
 
 
 
